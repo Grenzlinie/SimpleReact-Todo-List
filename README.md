@@ -12,4 +12,4 @@
 5. 注意className、style的写法，defaultChecked、checked，defaultValue、value之间的区别。
 
 ## 启动方式
-npm 123
+npm start
