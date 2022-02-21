@@ -22,6 +22,11 @@ class Header extends Component {
 			alert('输入不能为空')
 			return
 		}
+		if(target.value.length > 10){
+			alert('任务名称不能大于10个字符')
+			target.value = ''
+			return
+		}
 		//准备好一个todo对象
 		const todoObj = {id: nanoid(), name:target.value, done:false}
 		//将todoObj传递给App

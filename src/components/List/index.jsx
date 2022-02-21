@@ -19,7 +19,6 @@ class List extends Component {
 				<ul className="todo-main">
 				{
 					todos.map( todo => {
-						//函数体
 						return <Item key={todo.id} {...todo} updateTodo = {updateTodo} deleteTodo={deleteTodo} />
 					})
 				}
